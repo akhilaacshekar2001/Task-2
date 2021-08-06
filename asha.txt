@@ -1,1 +1,11 @@
-asd
+/* additio of two numbers using c++ */
+
+#include<iostream>
+void main()
+{
+ int a,b,c;
+ cout<<"Enter 2 no:";
+ cin>>a>>b;
+ c = a + b;
+ cout<<"sum is :"<<c;
+}
