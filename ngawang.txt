@@ -1,1 +1,12 @@
-asd
+import java.util.Scanner;
+int main()
+{
+int sum=0;
+ Scanner sc=new Scanner(System.in);
+ System.out.println("Enter First number:");
+ int a=sc.nextInt();
+ System.out.println("Enter Second number:");
+ int b=sc.nextInt();
+ sum=a+b;
+ System.out.println("The sum is "+sum);
+}
